@@ -1,0 +1,52 @@
+.display svg{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-width: 400px;
+    height: auto;
+    color: rgb(185, 47, 185);
+    stroke: black;
+    stroke-width: 0.5px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+
+.html, body{
+    background-color: rgb(166, 62, 214);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+.title {
+    text-align: center;
+    color: rgb(248, 148, 248);
+}
+
+.titile2{
+    text-align: center;
+    color: rgb(248, 148, 248);
+}
+
+.my-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border: 10px solid rgb(196, 91, 245);
+    border-radius: 10px;
+    background-color: rgb(196, 91, 245);
+    color: rgb(7, 7, 7);
+    width: 1000px;
+}
+.my-btn:hover {
+    background-color: rgb(189, 76, 189);
+    color: rgb(0, 0, 0);
+    border-color: rgb(189, 76, 189);
+    cursor: pointer;
+}
